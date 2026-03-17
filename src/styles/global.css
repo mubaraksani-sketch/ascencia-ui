@@ -1,0 +1,19 @@
+@import "./variables.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background: #fff;
+  color: #333;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0 20px;
+}

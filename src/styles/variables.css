@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #0a2540;
+    --secondary-color: #f5f7fa;
+    --accent-color: #ff6b35;
+  
+    --font-main: 'Segoe UI', sans-serif;
+  
+    --max-width: 1200px;
+  }
