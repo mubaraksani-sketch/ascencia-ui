@@ -1,9 +1,55 @@
 :root {
-    --primary-color: #0a2540;
-    --secondary-color: #f5f7fa;
-    --accent-color: #ff6b35;
-  
-    --font-main: 'Segoe UI', sans-serif;
-  
-    --max-width: 1200px;
-  }
+  /* Color system */
+  --bg: #ffffff;
+  --bg-muted: #f6f8fc;
+  --surface: #ffffff;
+  --surface-2: #f9fafb;
+
+  --text: #0b1220;
+  --text-muted: #475569;
+  --border: rgba(2, 6, 23, 0.10);
+
+  --primary: #0b2a4a; /* deep professional blue */
+  --primary-2: #123a64;
+  --primary-3: #071a2f;
+
+  --accent: #d8a740; /* subtle gold CTA accent */
+  --accent-2: #ffb84d;
+  --link: #2e7cf6; /* refined SaaS link blue */
+
+  /* Typography */
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  --font-display: Manrope, Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+
+  /* Layout */
+  --container: 1200px;
+  --gutter: 20px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+
+  /* Spacing (8px scale) */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-7: 32px;
+  --s-8: 40px;
+  --s-9: 48px;
+  --s-10: 64px;
+  --s-11: 80px;
+  --s-12: 96px;
+
+  /* Effects */
+  --shadow-sm: 0 1px 2px rgba(2, 6, 23, 0.06), 0 1px 1px rgba(2, 6, 23, 0.04);
+  --shadow-md: 0 16px 44px rgba(2, 6, 23, 0.10);
+  --shadow-lg: 0 24px 70px rgba(2, 6, 23, 0.14);
+
+  --ring: 0 0 0 4px rgba(46, 124, 246, 0.16);
+  --ring-accent: 0 0 0 4px rgba(216, 167, 64, 0.22);
+}
