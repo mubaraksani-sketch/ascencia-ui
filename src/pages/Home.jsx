@@ -4,7 +4,6 @@ import Reveal from "../components/common/Reveal";
 import banner3 from "../assets/images/ascencia-malta-banner-3.jpg";
 import banner4 from "../assets/images/ascencia-malta-banner-4.jpg";
 import bannerMobile from "../assets/images/ascencia-malta-banner-mobile.jpg";
-import overlay01 from "../assets/images/01.png";
 import heroArt from "../assets/images/hero-art.jpg";
 
 function Home() {
@@ -48,7 +47,6 @@ function Home() {
     <main className="page">
       <header
         className="hero heroBanner"
-
       >
         <div className="bannerFrame" aria-hidden="true">
           {banners.map((b, i) => (
